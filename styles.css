@@ -121,7 +121,7 @@ input:focus{
 
 button{
   background-color: rgba(0, 0, 0, 0);
-  color:  #f392c2;
+  color:  #fff;
   font-weight: 700;
   font-size: 1.2em;
   border: 2px solid  #f392c2;
@@ -153,7 +153,54 @@ a:hover{
   color: white;
 }
 
-@media only screen and (max-width: 600px){
+.bg-color h2{
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.bg-color p{
+
+  padding-top: 2rem;
+  text-align: center;
+}
+.social-ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.social-ul a{
+border-radius: 50px;
+border: 1px solid white;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+color:#f392c2;;
+font-size: 30px;
+margin: 10px 10px;
+height: 50px;
+width: 50px;
+text-decoration: none;
+border-bottom:#f392c2 3.5px solid;
+}
+
+footer {
+color: #ffffff;
+margin-top: -0.5rem;
+padding: 1px;
+text-align: center;  
+font-weight: bold;
+padding-top: 1rem;
+}
+
+footer .fa-heart{
+color: red;
+}
+
+@media only screen and (max-width: 1111px){
   .container{
     flex-flow: column;
     height: auto;
@@ -170,7 +217,7 @@ a:hover{
     width:100vw;
     height: 25vh;
     position: static;
-    border-right: 2px solid #f392c2;;
+    border-right: 2px solid #f392c2;
     gap: 10px;
   }
 
@@ -222,7 +269,27 @@ a:hover{
   }
 
   .creation{
-    height: 30vw;
+    height: 20vw;
     margin-right: 40px;
   }
 }
+
+/* @media only screen and (min-width:600px){
+
+  *{
+    font-family: sans-serif;
+  }
+  .creation {
+    height: 9vh;
+} 
+
+ input{
+  width: 150px;
+}
+
+.button{
+  display: flex;
+  justify-content: center; 
+}
+
+}  */
